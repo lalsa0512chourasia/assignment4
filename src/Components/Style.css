@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to bottom, lightblue, lightpink);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+button{
+    position: relative;
+    bottom: 10px;
+   left: 560px;
+   height: 40px;
+   width: 220px;
+   border-radius: 20px;
+   border: 2px solid black;
+   font-size: 19px;
+}
+
+h1{
+    position: relative;
+    right: 550px;
+    top: 30px;
+}
+h2{
+    margin: 20px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blue;
+    color: white;
+    height: 70px;
+   
+}
+.box{
+    margin-top: 20px;
+}
+li{
+    font-size: 34px;
+    font-style: oblique;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+li:hover{
+    color: pink;
+}
+/* .active{
+    text-decoration: none;
+} */
+a:Link{
+    text-decoration: none;
+}
